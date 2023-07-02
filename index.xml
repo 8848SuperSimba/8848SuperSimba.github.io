@@ -6,7 +6,25 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Jul 2023 20:29:40 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jul 2023 15:31:15 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MyThirdBlog</title>
+      <link>/posts/mythirdblog/</link>
+      <pubDate>Sun, 02 Jul 2023 15:31:15 +0800</pubDate>
+      
+      <guid>/posts/mythirdblog/</guid>
+      <description>
+        
+          
+            过程中遇到的问题(2) 视频： 如何使用Hugo搭建博客并上传至GitHub 得益于学长的保姆级教学，制作第一篇Blog的过程中没有遇到任何问题
+但遗憾的是并不符合作业要求，只能给自己找点事，我尝试用markdouwn语法插入图片：
+我查找到插入图片有三种方法： 方法一：通过本地插入图片 方法二：通过网络插入图片 方法三：将图片转成base64后插入 优缺点总结： 方法 优点 缺点 1 操作性是三个方法中最简单的 太不灵活了，本地路径一改就调不出来图片了 2 解决了方法一中的灵活性问题 依赖网络，需要先把图片先存到网络服务器上 不是，搁这套娃呢？ 3 既不依赖网络又不怕更改路径 base64太长了，下面的图片用10号字体，在world中整整用了72页才装下 遇到的问题：一开始我是坚定的想用方法三解决，毕竟其优点太香了，可一开始图片根本不能正确显示： 我的笔记：继续更新Blog的方法 解决办法：我对比了好几篇markdown教程，确定自己的语法没有问题后，我怀疑是网上的base64转码工具可能不大靠谱：在A网站上使用图片转base64后，换B网站base64转图片不一定能成功，而base64转码原理我也不懂，最后只好使用俄罗斯套娃的办法，我先在CSDN上发了一篇文章把想要插入的图片上传，拿到网址问题搞定： 我的笔记：继续更新Blog的方法 总结：如果不依赖网上的转码工具，我自己可以实现图片转base64的话，我还是想用方法三，但方法二也不错，只要CSDN不倒闭，我的图片就能在Blog上正常显示哈哈哈
+          
+          
+        
+      </description>
+    </item>
+    
     <item>
       <title>MySecondBlog</title>
       <link>/posts/mysecondblog/</link>
